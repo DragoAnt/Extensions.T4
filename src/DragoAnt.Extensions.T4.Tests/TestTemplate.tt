@@ -1,0 +1,8 @@
+﻿<#@ template language="C#" linePragmas="false" inherits="BaseTransformation<TemplateTestData>" visibility="internal" #>
+<#@ import namespace="DragoAnt.Extensions.T4" #>
+namespace <#= Data.Namespace #>;
+
+internal static class TestClass
+{
+    public static int[] Property => [<#= string.Join(", ", Data.Numbers) #>];
+}

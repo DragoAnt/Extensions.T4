@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <NoWarn>$(NoWarn);NU5128;</NoWarn>
+    <IsPackable>true</IsPackable>
+    <Description>Extension for T4 Templates</Description>
+    <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Tags>T4</Tags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="./../../README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

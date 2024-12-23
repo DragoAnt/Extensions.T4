@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".msbuild", ".msbuild", "{21313908-A076-4FFB-8CCA-17FDCBE8F43A}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+		nuget.config = nuget.config
+		.msbuild\package.props = .msbuild\package.props
+		.msbuild\package.icon.png = .msbuild\package.icon.png
+		.msbuild\product.props = .msbuild\product.props
+		version.props = version.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".pipelines", ".pipelines", "{3F5310DD-CE18-4602-A0D0-54756F9A70CB}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\build_and_publish_nuget.yml = ..\.github\workflows\build_and_publish_nuget.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragoAnt.Extensions.T4", "DragoAnt.Extensions.T4\DragoAnt.Extensions.T4.csproj", "{FB60031F-8B1D-4197-877B-EF2BC0058D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DragoAnt.Extensions.T4.Tests", "DragoAnt.Extensions.T4.Tests\DragoAnt.Extensions.T4.Tests.csproj", "{DE3783CC-2BD4-41D8-B662-4D25BD938F44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB60031F-8B1D-4197-877B-EF2BC0058D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB60031F-8B1D-4197-877B-EF2BC0058D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB60031F-8B1D-4197-877B-EF2BC0058D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB60031F-8B1D-4197-877B-EF2BC0058D27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3783CC-2BD4-41D8-B662-4D25BD938F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3783CC-2BD4-41D8-B662-4D25BD938F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3783CC-2BD4-41D8-B662-4D25BD938F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3783CC-2BD4-41D8-B662-4D25BD938F44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
