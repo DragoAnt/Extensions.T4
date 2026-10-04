@@ -1,5 +1,13 @@
 # Extensions.T4
 
+[![CI](https://img.shields.io/github/actions/workflow/status/DragoAnt/Extensions.T4/ci.yml?branch=main)](https://github.com/DragoAnt/Extensions.T4/actions/workflows/ci.yml)
+
+```sh
+dotnet add package DragoAnt.Extensions.T4
+```
+
+Part of [DragoAnt](https://github.com/DragoAnt) open-source .NET libraries.
+
 ## Overview
 
 `Extensions.T4` is a library designed to enhance the capabilities of T4 (Text Template Transformation Toolkit) templates. It provides utilities and extensions that simplify the process of generating code using T4 templates.
@@ -87,4 +95,4 @@ To start using `Extensions.T4`, include it in your project and create T4 templat
 
 ## License
 
-This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the terms of the MIT license. See the [LICENSE](https://github.com/DragoAnt/Extensions.T4/blob/main/LICENSE) file for details.

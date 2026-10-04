@@ -1,0 +1,29 @@
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      actions:
+        patterns:
+          - actions/*
+          - DragoAnt/*
+          - NuGet/*
+
+  - package-ecosystem: nuget
+    directory: /src
+    schedule:
+      interval: weekly
+    groups:
+      testing:
+        patterns:
+          - Verify*
+    ignore:
+      # Versions after 32.0.0 require a paid maintenance subscription.
+      - dependency-name: Verify
+        versions:
+          - '>32.0.0'
+      - dependency-name: Verify.XunitV3
+        versions:
+          - '>32.0.0'
