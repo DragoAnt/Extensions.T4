@@ -1,16 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
     <NoWarn>$(NoWarn);NU5128;</NoWarn>
-    <IsPackable>true</IsPackable>
-    <Description>Extension for T4 Templates</Description>
+    <Description>Base class and C# code helpers for preprocessed T4 text templates that generate code from input data.</Description>
     <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Tags>T4</Tags>
+    <PackageTags>t4;text-templating;code-generation;source-generator;csharp</PackageTags>
+    <MSKit_PackageReadmeSourcePath>$(MSBuildThisFileDirectory)../../README.md</MSKit_PackageReadmeSourcePath>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Include="./../../README.md" Pack="true" PackagePath="\" />
-  </ItemGroup>
-
 </Project>
