@@ -401,3 +401,6 @@ FodyWeavers.xsd
 
 # Verify
 *.received.*
+
+# Local AI agent context (never committed)
+/.claude/
